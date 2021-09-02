@@ -1,0 +1,63 @@
+body {
+	padding: 5px;
+	margin: 0%;
+}
+
+header {
+	background-color: #848E66;
+	background-image: url("johnkeats1-2x.jpeg");
+	background-size:100%;
+	padding:120px;
+}
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: x-large;
+	text-transform: uppercase;
+}
+
+nav a{
+
+	display: inline-block;
+	margin: 2.7%;
+		
+	-webkit-border-radius:5%;
+	-moz-border-radius: 3;
+	-o-border-radius: 35px;
+	border-radius: 35px;
+
+	text-decoration: none;
+	padding: 1%;
+
+	color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(218,234,213,0.30);
+	width:6%;
+	height: 15px;
+}
+
+.active {
+	background-color:rgba(218,234,213,0.30) ;
+}
+
+.left {
+	background-color: #57b6cf;
+	width: 74%;
+	float:left;
+	padding:2 % 0;
+}
+
+.right {
+	background-color: #57b6cf;
+	width:24%;
+	display: inline-block;
+	padding-left: 2%;
+}
+
+.right img {
+	border: solid 1px #000000;
+	width: 80%;
+	margin: 5%;
+}
