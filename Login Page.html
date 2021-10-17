@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Login page</title>
+    <style>
+		a:link, a:visited
+		{
+  		background-color: skyblue;
+ 		color: blue;
+  		padding: 10px 15px;
+  		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+		}
+
+		a:hover, a:active 
+		{
+ 			 background-color: red;
+		}
+</style>
+</head>
+<body bgcolor="#d9edf7">
+	This is a password protected file :)<br><br>
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "bennavv";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="welcome.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script><br><br><br><br><br><br><br><br><br><br>
+<footer>
+			<center><b>	<a href="song.html">Back</a></b>
+			</center>
+		</footer>
+</body>
+</html>
