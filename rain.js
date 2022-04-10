@@ -6,7 +6,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 // Setting up the letters
-var letters = 'for kaliga by ben FOR KALIGA BY BENfor kaliga by ben FOR KALIGA BY BEN';
+var letters = 'for kaliga by ben';
 letters = letters.split('');
 
 // Setting up the columns
